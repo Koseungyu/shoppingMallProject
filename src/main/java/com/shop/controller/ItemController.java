@@ -43,6 +43,7 @@ public class ItemController {
         }catch (Exception e){
             model.addAttribute("errorMessage", "상품 등록 중 에러가 발생했습니다.");
             return "item/itemForm";
+
         }
 
         return "redirect:/";
